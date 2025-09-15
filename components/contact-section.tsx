@@ -51,19 +51,19 @@ export default function ContactSection() {
     {
       icon: Mail,
       label: "Email",
-      value: "john.developer@email.com",
-      href: "mailto:john.developer@email.com",
+      value: "sopanmunde@gmail.com",
+      href: "mailto:sopanmunde@gmail.com",
     },
     {
       icon: Phone,
       label: "Phone",
-      value: "+1 (555) 123-4567",
-      href: "tel:+15551234567",
+      value: "+91 8767338447",
+      href: "",
     },
     {
       icon: MapPin,
       label: "Location",
-      value: "San Francisco, CA",
+      value: "Pune, Maharashtra, India",
       href: "#",
     },
   ]
@@ -72,13 +72,13 @@ export default function ContactSection() {
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com",
+      href: "https://github.com/sopanmunde",
       color: "hover:text-gray-600",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com",
+      href: "https://www.linkedin.com/in/sopan-munde-182569276/",
       color: "hover:text-blue-600",
     },
     {

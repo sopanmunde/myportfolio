@@ -29,7 +29,7 @@ const projects = [
     image: "/portfolio.png?height=300&width=400",
     tags: ["Next.js", "Node.js", "Tailwind CSS", "GitHub Pages"],
     category: "Web",
-    github: "#",
+    github: "https://github.com/sopanmunde/myportfolio",
     demo: "#",
     featured: true,
   },
