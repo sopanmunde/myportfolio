@@ -7,32 +7,32 @@ import { Calendar, MapPin, Award } from "lucide-react"
 
 const timeline = [
   {
-    year: "2024",
+    year: "2024-25",
     title: "Senior Full Stack Developer",
-    company: "Tech Innovations Inc.",
+    company: "Self",
     description: "Leading AI-powered web applications development",
-    type: "work",
+    type: "Work",
   },
   {
-    year: "2023",
-    title: "AI Certification",
-    company: "Stanford University",
-    description: "Machine Learning Specialization",
-    type: "education",
+    year: "2023-24",
+    title: "Copyright",
+    company: "Copyright Office, Government Of India",
+    description: "CSE Departmental Magazine 2022-23 ",
+    type: "Literary",
   },
   {
-    year: "2022",
+    year: "2022-23",
     title: "Full Stack Developer",
     company: "Digital Solutions Ltd.",
     description: "Developed scalable web applications using React and Node.js",
-    type: "work",
+    type: "Work",
   },
   {
-    year: "2021",
-    title: "Computer Science Degree",
-    company: "University of Technology",
-    description: "Bachelor of Science in Computer Science",
-    type: "education",
+    year: "2021-22",
+    title: "Computer Science Engineering",
+    company: "Dr.Babasaheb Ambedkar Technological University, Lonere - Raigad",
+    description: "Bachelor of Technology",
+    type: "Education",
   },
 ]
 
@@ -73,13 +73,20 @@ export default function AboutSection() {
                 Professional Journey
               </h3>
               <p className="text-foreground/70 leading-relaxed mb-4">
-                With over 5 years of experience in software development, I've had the privilege of working on diverse
-                projects ranging from AI-powered applications to large-scale web platforms. My expertise lies in
-                bridging the gap between complex technical solutions and user-friendly interfaces.
+                With a journey spanning from my first year of engineering to final year projects, 
+                I’ve had the opportunity to work on a variety of innovative projects — from developing 
+                an AI Waste Management System and a GPS Tracking Device, to building a Plagiarism Detection Model. 
+                Each project has helped me strengthen my technical foundation while exploring practical applications 
+                of AI and software development.
+              </p>
+              <p className="text-foreground/70 leading-relaxed mb-4">
+                My expertise lies in applying AI/ML techniques, computer vision, and data analysis to solve real-world 
+                problems while also gaining exposure to full-stack development tools like Next.js, Clerk, and FastAPI.
               </p>
               <p className="text-foreground/70 leading-relaxed">
-                I'm particularly passionate about emerging technologies like machine learning, blockchain, and IoT, and
-                how they can be integrated to create innovative solutions for real-world problems.
+                "Passionate about AI, space technology, and sustainability, 
+                explored through multiple IIRS-ISRO certified courses, with achievements including 
+                the All India Best Youth Leader Award and two Copyrights for original projects."
               </p>
             </div>
 
@@ -89,11 +96,11 @@ export default function AboutSection() {
                 Current Focus
               </h3>
               <ul className="space-y-2 text-foreground/70">
-                <li>• Building AI-powered web applications</li>
-                <li>• Developing scalable microservices architectures</li>
-                <li>• Contributing to open-source projects</li>
-                <li>• Mentoring junior developers</li>
-                <li>• Research in computer vision and NLP</li>
+                <li>• Building AI-powered solutions for real-world impact</li>
+                <li>• Full-stack development with Next.js, Clerk & FastAPI</li>
+                <li>• Exploring Computer Vision, Generative AI, LLMs & Agentic AI</li>
+                <li>• Strengthening skills in ML, DL & Data Analysis</li>
+                <li>• Learning more about IPR, Patents & Innovation</li>
               </ul>
             </div>
           </motion.div>

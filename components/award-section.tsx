@@ -22,64 +22,65 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
+import Image from "next/image";
 
 const awards = [
   {
     id: 1,
-    title: "Dean's List Excellence Award",
-    institution: "University of Technology",
-    year: "2021",
-    category: "Academic",
+    title: "🎗️Best Youth Leader Award🎗️",
+    institution: "IP  (IPTSE- Intellactual Property Tatent Search Examination)",
+    year: "2024",
+    category: "Student | Faculty",
     description:
-      "Recognized for maintaining a GPA of 3.8+ for four consecutive semesters while pursuing Computer Science degree.",
-    icon: BookOpen,
+      "• All Indian Best Youth Leader Award in the Intellectual Property Talent Search Examination.",
+    icon: Trophy,
     color: "from-blue-500 to-cyan-500",
-    participants: "Top 5% of class",
-    location: "University Campus",
-    image: "/placeholder.svg?height=300&width=400",
+    participants: "All Indian Rank 1",
+    location: "Delhi",
+    image: "/iptes-award.jpg?height=400&width=400",
     featured: true,
     details: [
-      "Maintained 3.9 GPA across all semesters",
-      "Completed advanced coursework in AI and Machine Learning",
-      "Led study groups for struggling students",
-      "Published research paper on neural networks",
+      "All Indian Best Youth Leader Award (University Category).",
+      "Intellectual Property Talent Search Examination.",
+      "Copyrights, patents, and trademarks knowledge.",
+      "Date: 19th November 2024",
     ],
   },
   {
     id: 2,
-    title: "Outstanding Student in Computer Science",
-    institution: "University of Technology",
-    year: "2021",
-    category: "Academic",
+    title: "Exploration of Solar System",
+    institution: "🏦 IIRS-ISRO",
+    year: "2024",
+    category: "Student",
     description:
-      "Awarded to the most exceptional student in the Computer Science program for academic excellence and innovation.",
-    icon: Trophy,
+      "I have successfully completed the online course 'Exploration of the Solar System' offered by IIRS-ISRO Dehradun.",
+    icon: Star,
     color: "from-yellow-500 to-orange-500",
-    participants: "1 out of 200 students",
-    location: "Graduation Ceremony",
-    image: "/placeholder.svg?height=300&width=400",
+    participants: "Grade: A+",
+    location: "Chatrapati Sambhajinagar",
+    image: "/isro-merit.jpg?height=400&width=400",
     featured: true,
     details: [
-      "Highest GPA in Computer Science program",
-      "Completed capstone project on AI-powered analytics",
-      "Mentored 15+ junior students",
-      "Contributed to 3 research publications",
+      'Completed "Exploration of the Solar System" course.',
+      "Offered by IIRS-ISRO Dehradun.",
+      "Guided by IIRS Nodal Centre, PESCOE Chatrapati Sambhajinagar.",
+      "Special Thanks to Prof. Bharati Pawar Ma’am.",
     ],
   },
   {
     id: 3,
-    title: "Research Excellence Award",
-    institution: "University Research Department",
-    year: "2020",
-    category: "Research",
+    title: "The National Entrepreneurship Challenge",
+    institution: "The Entrepreneurship Cell IIT Bombay ",
+    year: "2023",
+    category: "Entrepreneurship",
     description:
-      "Recognized for outstanding contribution to machine learning research and publication in peer-reviewed journals.",
+      " National Entrepreneurship Challenge. (Rank 33): The National Entrepreneurship Challenge is a 6-month-long competition.",
     icon: Star,
     color: "from-purple-500 to-pink-500",
-    participants: "Top 3 researchers",
-    location: "Research Symposium",
-    image: "/placeholder.svg?height=300&width=400",
-    featured: false,
+    participants: "Rank 33",
+    location: "PES College of Engineering Chatrapati Sambhajinagar",
+    image: "/e-cell.png?height=300&width=400",
+    featured: true,
     details: [
       "Published 2 papers in top-tier conferences",
       "Developed novel ML algorithm for image recognition",
@@ -99,7 +100,7 @@ const awards = [
     participants: "50 recipients nationwide",
     location: "National Selection",
     image: "/placeholder.svg?height=300&width=400",
-    featured: true,
+    featured: false,
     details: [
       "Full tuition coverage for 3 years",
       "Maintained 3.8+ GPA requirement",
@@ -380,7 +381,7 @@ export default function AwardSection() {
                           <img
                             src={award.image || "/placeholder.svg"}
                             alt={award.title}
-                            className="w-full h-64 object-cover rounded-lg"
+                            className="w-full h-96 object-cover rounded-lg"
                           />
                           <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg" />
                         </div>
