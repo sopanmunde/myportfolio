@@ -13,6 +13,7 @@ import ThemeToggle from "@/components/theme-toggle"
 import { ThemeProvider } from "@/components/theme-provider"
 import AddPhotoSection from "@/components/add-photo-section"
 import AwardSection from "@/components/award-section"
+import Navbar from "@/components/navbar"
 
 export default function Portfolio() {
   const { scrollYProgress } = useScroll()
